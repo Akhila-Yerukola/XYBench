@@ -3,7 +3,7 @@
 
 **🏆 Best Resource Paper Award** at EMNLP 2026
 
-[[Paper]](https://arxiv.org/abs/2609.06842) · [[Dataset]](<ADD link>)
+[[Paper]](https://arxiv.org/abs/2609.06842) · [[Dataset]](https://huggingface.co/datasets/allenai/XYBench-dataset)
 
 
 ## Overview
@@ -37,7 +37,7 @@ We evaluate free-form model responses using an LLM judge, measuring the **presen
 | `wikihow` | 6,268 | – | everyday how-to queries constructed from WikiHow articles |
 
 
-The data is hosted on the Hugging Face Hub as [`TO-DO`](<add link>) and downloaded automatically by the scripts (cached by `huggingface_hub`):
+The data is hosted on the Hugging Face Hub as [`allenai/XYBench-dataset`](https://huggingface.co/datasets/allenai/XYBench-dataset) and downloaded automatically by the scripts (cached by `huggingface_hub`):
 
 
 * `{subset}/queries.jsonl`: the benchmark queries with the stated and intended request, the three rubrics, multiple-choice candidates, and source.
@@ -49,6 +49,8 @@ Field descriptions are in [docs/DATA.md](docs/DATA.md). To use a local copy inst
 
 ## Setup
 
+
+Requires Python 3.10+.
 
 ```bash
 git clone https://github.com/Akhila-Yerukola/XYBench.git
@@ -195,3 +197,7 @@ Metrics per response:
 ```
 
 
+
+## License
+
+The code is licensed under Apache 2.0. The data is licensed under ODC-BY 1.0. The artifacts are intended for research and educational use in accordance with Ai2's [Responsible Use Guidelines](https://allenai.org/responsible-use).

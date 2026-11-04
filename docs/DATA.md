@@ -1,6 +1,6 @@
 # Data files
 
-The data lives in the Hugging Face dataset [`akhilayerukola/xybench-test`](https://huggingface.co/datasets/akhilayerukola/xybench-test), laid out as `{subset}/queries.jsonl` and `{subset}/human_reference.jsonl`. The scripts download and cache the files; `--data-dir` points them at a local copy with the same layout. All files are JSONL (one JSON object per line).
+The data lives in the Hugging Face dataset [`allenai/XYBench-dataset`](https://huggingface.co/datasets/allenai/XYBench-dataset), laid out as `{subset}/queries.jsonl` and `{subset}/human_reference.jsonl`. The scripts download and cache the files; `--data-dir` points them at a local copy with the same layout. All files are JSONL (one JSON object per line).
 
 ## `{subset}/queries.jsonl`
 

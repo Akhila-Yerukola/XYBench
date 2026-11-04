@@ -10,7 +10,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from compute_results import METRICS, human_rows  # noqa: E402
 from utils import SUBSETS, human_reference_path, queries_path, read_jsonl  # noqa: E402
 
-EXPECTED_N = {"stackoverflow": 1557, "stackexchange": 184, "manually_curated": 102, "wikihow": 6268}
+try:  # these tests need the dataset (Hugging Face Hub or --data-dir / XYBENCH_DATA_DIR)
+    queries_path(SUBSETS[0])
+except Exception as e:  # noqa: BLE001
+    pytest.skip(f"dataset not available: {type(e).__name__}", allow_module_level=True)
+
+EXPECTED_N ={"stackoverflow": 1557, "stackexchange": 184, "manually_curated": 102, "wikihow": 6268}
 REQUIRED = ["id", "subset", "domain", "query", "stated_request", "intended_request", "stated_solution",
             "intended_solution", "misconception_identification", "misconception_mode", "source"]
 
