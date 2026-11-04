@@ -1,0 +1,6 @@
+litellm>=1.50
+huggingface_hub>=0.20
+pydantic>=2.5
+json-repair>=0.30
+tqdm>=4.66
+pytest>=7
