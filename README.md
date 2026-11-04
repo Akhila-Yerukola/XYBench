@@ -50,6 +50,8 @@ Field descriptions are in [docs/DATA.md](docs/DATA.md). To use a local copy inst
 ## Setup
 
 
+Requires Python 3.10+.
+
 ```bash
 git clone https://github.com/Akhila-Yerukola/XYBench.git
 cd XYBench
@@ -195,3 +197,7 @@ Metrics per response:
 ```
 
 
+
+## License
+
+The code is licensed under Apache 2.0. The data is licensed under ODC-BY 1.0. The artifacts are intended for research and educational use in accordance with Ai2's [Responsible Use Guidelines](https://allenai.org/responsible-use).
