@@ -1,6 +1,2 @@
-litellm>=1.50
-huggingface_hub>=0.20
-pydantic>=2.5
-json-repair>=0.30
-tqdm>=4.66
-pytest>=7
+litellm>=1.50            # Licence: MIT | https://github.com/BerriAI/litellm
+json-repair>=0.30        # License: MIT | https://github.com/mangiucugna/json_repair
