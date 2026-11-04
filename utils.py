@@ -16,7 +16,7 @@ T = TypeVar("T", bound=BaseModel)
 ROOT = Path(__file__).resolve().parent
 # Benchmark data: downloaded from this Hugging Face dataset (cached by huggingface_hub)
 # unless a local directory with {subset}/queries.jsonl is given (--data-dir or XYBENCH_DATA_DIR).
-DATASET = os.environ.get("XYBENCH_DATASET", "akhilayerukola/xybench-test")
+DATASET = os.environ.get("XYBENCH_DATASET", "allenai/XYBench-dataset")
 DATA_DIR = Path(os.environ["XYBENCH_DATA_DIR"]) if os.environ.get("XYBENCH_DATA_DIR") else None
 OUTPUT_DIR = Path(os.environ.get("XYBENCH_OUTPUT_DIR", ROOT / "outputs"))
 
