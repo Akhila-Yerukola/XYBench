@@ -1,0 +1,75 @@
+XYBench
+Copyright © 2026 The Allen Institute for Artificial Intelligence
+
+This software includes code from the following open source projects. Each is
+listed with its license and required notices.
+
+================================================================================
+
+MIT License
+
+litellm — https://github.com/BerriAI/litellm
+Copyright © 2023 Berri AI
+
+json-repair — https://github.com/mangiucugna/json_repair
+Copyright © 2023 Stefano Baccianella
+
+pydantic — https://github.com/pydantic/pydantic
+Copyright © 2017 to present Pydantic Services Inc. and individual contributors
+
+pytest — https://github.com/pytest-dev/pytest
+Copyright © 2004 Holger Krekel and others
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in the
+Software without restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+--------------------------------------------------------------------------------
+
+Apache License 2.0
+
+huggingface_hub — https://github.com/huggingface/huggingface_hub
+Copyright © The HuggingFace Team
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the specific
+i knlanguage governing permissions and limitations under the License.
+
+(huggingface_hub is used, not redistributed, by this repository.)
+
+--------------------------------------------------------------------------------
+
+Mozilla Public License 2.0 and MIT License
+
+tqdm — https://github.com/tqdm/tqdm
+Copyright © 2015-2024 tqdm developers, including Casper da Costa-Luis,
+Google Inc., Noam Yorav-Raphael, and other contributors
+
+This Source Code Form is subject to the terms of the Mozilla Public License,
+v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain
+one at https://mozilla.org/MPL/2.0/.
+
+The source code of tqdm is available at the URL above. tqdm is used, unmodified,
+as an installed dependency and is not redistributed by this repository.
+(Portions of tqdm are licensed under the MIT License; see the MIT License text
+above.)
